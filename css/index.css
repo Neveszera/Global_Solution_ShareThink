@@ -53,10 +53,66 @@ header {
     border-radius: 15px;
 }
 
-
 .nav_header .logo {
     padding-top: 20px;
     padding-left: 25px;
     height: 10vh;
     padding-bottom: 2px;
+}
+
+/* ---------------------main--------------------- */
+
+section {
+    padding: 30px 5%;
+}
+
+.sobre {
+    padding-top: 100px;
+}
+
+.sobre,
+.missao,
+.valores,
+.visao {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.sobre-img,
+.missao-img,
+.valores-img,
+.visao-img,
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    color:#1e0249;
+}
+
+.sobre-text,
+.missao-text,
+.valores-text,
+.visao-text,
+p {
+    font-size: 1rem;
+    margin: 1rem 0 2rem;
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+
+.btn {
+    font-family: 'Konkhmer Sleokchher', cursive;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e0249;
+    color: #fff;
+    border-radius: 0.5rem;
 }
