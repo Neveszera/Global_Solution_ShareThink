@@ -1,0 +1,74 @@
+@media screen and (max-width: 480px) {
+
+    .sobre,
+    .missao,
+    .valores,
+    .visao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre,
+    .missao,
+    .valores,
+    .visao,
+    .missao-img,
+    .valores-img,
+    .visao-img,
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sobre-text,
+    .missao-text,
+    .valores-text,
+    .visao-text,
+    h2,
+    p,
+    .btn {
+        text-align: center;
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .sobre,
+    .missao,
+    .valores,
+    .visao {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 1.5rem;
+    }
+
+    .sobre-text,
+    .missao-text,
+    .valores-text,
+    .visao-text {
+        order: 1;
+    }
+
+    .sobre-img,
+    .missao-img,
+    .valores-img,
+    .visao-img {
+        order: 2;
+    }
+
+    .sobre-text,
+    .missao-text,
+    .valores-text,
+    .visao-text,
+    h2,
+    p {
+        text-align: center;
+    }
+
+    .btn {
+        display: block;
+        margin: 0 auto;
+    }
+}
