@@ -116,3 +116,21 @@ p {
     color: #fff;
     border-radius: 0.5rem;
 }
+
+/* ---------------------footer--------------------- */
+
+.footer_creater {
+    margin-top: 30px;
+    color: black;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 13px;
+    box-shadow: 0px 0px 4px 1px #373535;
+}
+
+.footer_creater strong{
+    color:#1e0249;
+}
