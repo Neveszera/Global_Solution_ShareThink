@@ -1,0 +1,50 @@
+.cardBoxCursosConcluidos {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+}
+
+.cardCursosConcluidos {
+    position: relative;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+}
+
+.cardCursosConcluidos img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cardCursosConcluidos h2 {
+    font-weight: 600;
+    color: #1e0249;
+    margin-top: 20px;
+}
+
+.cardCursosConcluidos p {
+    color: #777;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cardCursosConcluidos .rating {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    color: #ffcc00;
+}
+
+.cardCursosConcluidos .rating ion-icon {
+    font-size: 20px;
+}

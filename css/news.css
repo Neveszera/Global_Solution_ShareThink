@@ -1,0 +1,46 @@
+.cardReleases {
+    display: flex;
+    justify-content: center;
+}
+
+.release {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.release h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.release p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.release ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.release ul li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.release a {
+    text-decoration: none;
+    color: #1e0249;
+    font-weight: 600;
+}
+
+.release a:hover {
+    text-decoration: underline;
+}

@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/user.css">
+    <link rel="stylesheet" href="../css/perfil_user.css">
+    <link rel="stylesheet" href="../css/cursos_user.css">
+    <link rel="stylesheet" href="../css/cursos_concluidos.css">
+    <link rel="stylesheet" href="../css/vagas.css">
+    <link rel="stylesheet" href="../css/news.css">
+    <link rel="stylesheet" href="../css/sair.css">
 
     <title>ShareThink</title>
 </head>
@@ -187,11 +193,165 @@
                             </ul>
                         </div>
                     </div>
+                </div>
+                <div class="conteudo" id="MeuPerfil">
+                    <div class="cardBoxPerfil">
+                        <div class="cardPerfil">
+                            <h2>Dados Pessoais</h2>
+                            <form action="" method="post">
+                                <input type="text" class="input-field" placeholder="Nome Completo:">
+                                <input type="text" class="input-field" placeholder="CPF:">
+                                <input type="text" class="input-field" placeholder="RG:">
+                                <input type="tel" class="input-field" placeholder="Telefone:">
+                                <input type="date" class="input-field" placeholder="Data de nascimento:">
+                                <input type="email" class="input-field" placeholder="Email:">
+                                <button type="button" class="send">SALVAR</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="cardBoxSenha">
+                        <div class="cardSenha">
+                            <h2>Alterar Senha</h2>
+                            <form action="" method="post">
+                                <input type="password" class="input-field" placeholder="Digite a senha atual:">
+                                <input type="password" class="input-field" placeholder="Digite a senha nova:">
+                                <input type="password" class="input-field" placeholder="Digite a senha nova novamente:">
+                                <button type="button" class="send">SALVAR</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="conteudo" id="Cursos">
+                    <div class="cardBoxCursos">
+                        <div class="cardCursos">
+                            <img src="../img/Cursos.png" alt="Curso 1">
+                            <h2>Nome do Curso 1</h2>
+                            <p>Descrição do Curso 1</p>
+                            <a href="#" class="btn">Ver detalhes</a>
+                        </div>
+                        <div class="cardCursos">
+                            <img src="../img/Cursos.png" alt="Curso 2">
+                            <h2>Nome do Curso 2</h2>
+                            <p>Descrição do Curso 2</p>
+                            <a href="#" class="btn">Ver detalhes</a>
+                        </div>
+                        <div class="cardCursos">
+                            <img src="../img/Cursos.png" alt="Curso 3">
+                            <h2>Nome do Curso 3</h2>
+                            <p>Descrição do Curso 3</p>
+                            <a href="#" class="btn">Ver detalhes</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="conteudo" id="CursosConcluidos">
+                    <div class="cardBoxCursosConcluidos">
+                        <div class="cardCursosConcluidos">
+                            <img src="../img/Curso_Check.png" alt="Curso Concluído 1">
+                            <h2>Nome do Curso Concluído 1</h2>
+                            <p>Descrição do Curso Concluído 1</p>
+                            <div class="rating">
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star-half"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="cardCursosConcluidos">
+                            <img src="../img/Curso_Check.png" alt="Curso Concluído 2">
+                            <h2>Nome do Curso Concluído 2</h2>
+                            <p>Descrição do Curso Concluído 2</p>
+                            <div class="rating">
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="cardCursosConcluidos">
+                            <img src="../img/Curso_Check.png" alt="Curso Concluído 3">
+                            <h2>Nome do Curso Concluído 3</h2>
+                            <p>Descrição do Curso Concluído 3</p>
+                            <div class="rating">
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteudo" id="Vagas">
+                    <div class="cardBoxVagas">
+                        <div class="cardVagas">
+                            <h2>Nome da Vaga 1</h2>
+                            <p>Descrição da Vaga 1</p>
+                            <ul>
+                                <li>Requisito 1</li>
+                                <li>Requisito 2</li>
+                                <li>Requisito 3</li>
+                            </ul>
+                            <a href="#">Saiba mais</a>
+                        </div>
+                        <div class="cardVagas">
+                            <h2>Nome da Vaga 2</h2>
+                            <p>Descrição da Vaga 2</p>
+                            <ul>
+                                <li>Requisito 1</li>
+                                <li>Requisito 2</li>
+                                <li>Requisito 3</li>
+                            </ul>
+                            <a href="#">Saiba mais</a>
+                        </div>
+                        <div class="cardVagas">
+                            <h2>Nome da Vaga 3</h2>
+                            <p>Descrição da Vaga 3</p>
+                            <ul>
+                                <li>Requisito 1</li>
+                                <li>Requisito 2</li>
+                                <li>Requisito 3</li>
+                            </ul>
+                            <a href="#">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="conteudo" id="News">
+                    <div class="cardReleases">
+                        <div class="release">
+                            <h2>Versão 1.1.0</h2>
+                            <p>Descrição da versão 1.1.0</p>
+                            <ul>
+                                <li>Novo recurso 1</li>
+                                <li>Novo recurso 2</li>
+                                <li>Melhorias de desempenho</li>
+                                <li>Correções de bugs</li>
+                            </ul>
+                            <a href="#">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="confirmDialog">
+                    <div id="confirmDialogBox">
+                        <h2>Você realmente deseja sair?</h2>
+                        <div id="dialogButtons">
+                            <button id="simBtn">Sim</button>
+                            <button id="naoBtn">Não</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script script nomodule src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="../scripts/user.js"></script>
+    <script src="../scripts/sair.js"></script>
 
 </body>
 
