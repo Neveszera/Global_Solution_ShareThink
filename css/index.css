@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@500;700&family=Righteous&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.nav_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 1px #373535;
+
+}
+
+.nav_header li {
+    display: inline-block;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.nav_header ul {
+    list-style: none;
+    padding: 15px;
+}
+
+.nav_header ul li a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #1e0249;
+    position: relative;
+    transition: all 0.6s;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 400;
+}
+
+.nav_header ul li a:hover {
+    background-color: #1e0249;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.nav_header .logo {
+    padding-top: 20px;
+    padding-left: 25px;
+    height: 10vh;
+    padding-bottom: 2px;
+}
+
+/* ---------------------main--------------------- */
+
+section {
+    padding: 30px 5%;
+}
+
+.sobre {
+    padding-top: 100px;
+}
+
+.sobre,
+.missao,
+.valores,
+.visao {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.sobre-img,
+.missao-img,
+.valores-img,
+.visao-img,
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    color:#1e0249;
+}
+
+.sobre-text,
+.missao-text,
+.valores-text,
+.visao-text,
+p {
+    font-size: 1rem;
+    margin: 1rem 0 2rem;
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+
+.btn {
+    font-family: 'Konkhmer Sleokchher', cursive;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e0249;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+/* ---------------------footer--------------------- */
+
+.footer_creater {
+    margin-top: 30px;
+    color: black;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 13px;
+    box-shadow: 0px 0px 4px 1px #373535;
+}
+
+.footer_creater strong{
+    color:#1e0249;
+}
